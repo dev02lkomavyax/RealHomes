@@ -1,0 +1,301 @@
+@media(max-width:520px){
+    /* navbar */
+    .sub-header-menu{ 
+        display: flex !important;
+        flex-direction: column !important;
+        overflow: hidden;
+        gap: 21px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 7px -2px rgba(29, 178, 255,0.5);
+
+    }
+    .sub-header {
+    border-radius: 30px;
+    }
+
+    .sub-header-menu select{
+        outline:none
+    }
+    .sub-header-menu>li{
+        border-right: none;
+    }
+    .hidden{
+        display: none !important;
+    }
+    #mobile-navbar{
+        flex-direction: column !important;
+        display: flex !important;
+        align-items: flex-start !important;
+
+    }
+    .navbar-nav{
+        align-items: flex-start !important;
+    }
+    #navbar-brand-2{
+        display: none !important;
+    }
+    .sub-universal-container {
+        padding:1rem;
+    }
+    .cost-drop-down{
+        position: relative;
+        transform: translate(0,0);
+        width: 100%;
+    }
+
+    .sub-header{
+           width: 95% !important;
+           margin: 1rem auto;
+    }
+    .map-container{
+        height: 100%;
+    }
+    .property-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* property-page */
+    .fdr-column{
+        flex-direction: column !important;
+    }
+    .width-100{
+        width: 100% !important;
+    }
+    /* Hero section */
+    .top-hero-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .property-details{
+        width: 100%;
+        padding:0.7rem 0;
+    }
+
+    .hero-section{
+        width: 100% !important;
+    }
+    .property-slider{
+        height: 300px;
+    }
+    /* Floor-plans */
+    .floor-plan-content{
+        flex-direction: column;
+    }
+    .left-section, .right-section{
+        width: 100%;
+    }
+    /* video container */
+    .video-container{
+        max-width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .property-video{
+        height: 300px;
+    }
+    .featured-property-sidebar{
+        display: none;
+    }
+    /* contact-us */
+    .contact-us{
+        width: 100%;
+        margin:4% auto
+    }
+    .custom-form{
+        width: 80vw;
+        margin: 2rem auto;
+    }
+    /* sort by */
+    .sort-by ul{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* overview */
+    .overview{
+        max-width: 100%;
+    }
+    .overview ul{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr);
+        gap: 12px;
+    }
+    /* additional details */
+    .additional-details ul{
+        width: 100%;
+    }
+    .additional-details ul li{
+        flex-direction: column;
+    }
+    .additional-details ul li span{
+        white-space: nowrap;
+        font-size: 0.9rem;
+    }
+    .additional-details{
+        width: 100%;
+    }
+    /* features */
+    .features ul{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
+        gap: 1.5rem;
+    }
+    .flying-button{
+        position:absolute;
+        top:41%;
+        left:22%;
+        z-index: 5;
+        bottom: auto;
+    }
+    .bottom-slider{
+        width:100% !important;
+    }
+    /* Footer */
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .help-section{
+        flex-direction: column;
+        height: 100%;
+    }
+    .left-modal{
+        display: none;
+    }
+    .right-modal{
+        width: 100%;
+    }
+    .flying-button{
+        top:33%;
+        left: 19%;
+    } 
+    .amneties ul li{
+        padding:18px 11px;
+    }
+    /* Property-by location */
+    .container-button{
+        gap:4px;
+    }
+    .location-property{
+        flex-direction: column;
+    }
+    .left-section-property{
+        width: 100%;
+    }
+    .right-sidebar{
+        width: 100%;
+    }
+    .grid-container-4{
+        grid-template-columns: repeat(1,1fr);
+        gap: 5rem;
+    }
+    .property-box {
+        transform: translate(5rem,2.8rem);
+
+    }
+    .mobile-property-card{
+        box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex !important;
+        flex-direction: column;
+        gap: 10px;
+        margin: 2rem 0;
+        position: relative;
+    }
+    .sale-tag{
+        background-color: white !important;
+        border:none !important;
+        color: black;
+    }
+    .mobile-address h6{
+        flex-direction: row;
+        display: flex;
+        color: #808080;
+        align-items: center;
+    }
+    .mobile-address span{
+        color: var(--blue-color);
+        
+        
+    }
+    .sale-tag a{
+        
+        color: black;
+    }
+    .featured-tag{
+        background-color: var(--blue-color) !important;
+        border:none !important;
+        
+    }
+    .featured-tag a{
+        color: white;
+        
+    }
+    .trendy-tag{
+        background-color: #f58220 !important;
+        border: none !important;
+    }
+    .trendy-tag a{
+        color:white !important;
+    }
+    .tags-mobile{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        top: 0;
+        left: 0;
+        transform: translate(8px,8px);
+
+    }
+    .tags-mobile li{
+        padding: 0.2rem 0.5rem;
+        border-radius: 2rem;background-color: transparent;
+        border: 2px solid var(--blue-color);
+        
+        transition: 0.4s linear;
+    }
+    
+    .tags-mobile li:hover{
+        
+        background-color: var(--blue-color);
+        
+    }
+    .tags-mobile li:hover a{
+        color:white;
+    }
+    .column-content{
+        padding: 0.5rem 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    /* Card Amneties */
+    .card-amnety{
+        
+        /* height: 130px; */
+        white-space: nowrap;
+    }
+    .card-amnety ul{
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap:10px;
+        align-items: center;
+    }
+    .card-amnety ul li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        padding: 12px;
+        box-shadow: 0px 0px 7px -2px rgba(0,0,0,.19);
+        border-radius: 7px;
+    }
+    .cost-container-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
